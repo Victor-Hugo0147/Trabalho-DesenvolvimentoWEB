@@ -47,7 +47,6 @@ app.put('/users/:email', (req, res)=> {
   });
 
 // Rota para excluir um usuário
-// Rota para excluir um usuário
 app.delete('/users/:email', (req, res) => {
     const { email } = req.params;
   
